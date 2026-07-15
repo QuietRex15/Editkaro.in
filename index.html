@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Editkaro.in - A Social Media Marketing and Video Editing Agency Portfolio.">
+    <title>Editkaro.in | Visual Narrative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">EDITKARO<span class="dot">.</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#work" class="nav-link magnetic">Work</a></li>
+                    <li><a href="#services" class="nav-link magnetic">Services</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn magnetic">Let's Talk</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title fade-up">Visual <br><span class="outline-text">Narratives</span></h1>
+                    <p class="hero-subtitle fade-up delay-1">We don't just edit videos. We engineer attention. Premium social media marketing and visual storytelling for modern brands.</p>
+                    <a href="#work" class="explore-btn fade-up delay-2 magnetic">
+                        <span class="btn-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg></span>
+                        Explore Our Work 
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Marquee -->
+        <div class="marquee-wrapper">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span>VIDEO EDITING</span> <span class="star">✦</span>
+                    <span>SOCIAL MEDIA MARKETING</span> <span class="star">✦</span>
+                    <span>COLOR GRADING</span> <span class="star">✦</span>
+                    <span>CONTENT STRATEGY</span> <span class="star">✦</span>
+                    <span>DOCUMENTARY</span> <span class="star">✦</span>
+                    <span>ANIMATION</span> <span class="star">✦</span>
+                    <span>VIDEO EDITING</span> <span class="star">✦</span>
+                    <span>SOCIAL MEDIA MARKETING</span> <span class="star">✦</span>
+                    <span>COLOR GRADING</span> <span class="star">✦</span>
+                    <span>CONTENT STRATEGY</span> <span class="star">✦</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Collaborations / Minimal Netflix Logo -->
+        <section class="collaborations">
+            <div class="container collabs-container fade-up delay-1">
+                <span class="collabs-label">Featured Collaborations</span>
+                <div class="collab-logos">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" class="collab-logo netflix">
+                    <!-- Added Nike as well since we have a Nike project -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike" class="collab-logo nike">
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio" id="work">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title">Selected Works</h2>
+                </div>
+
+                <!-- Filters -->
+                <div class="filter-wrapper fade-up delay-1">
+                    <button class="filter-btn active magnetic" data-filter="all">All</button>
+                    <button class="filter-btn magnetic" data-filter="short-form">Short-Form</button>
+                    <button class="filter-btn magnetic" data-filter="long-form">Long-Form</button>
+                    <button class="filter-btn magnetic" data-filter="gaming">Gaming</button>
+                    <button class="filter-btn magnetic" data-filter="football">Football</button>
+                    <button class="filter-btn magnetic" data-filter="ecommerce">eCommerce</button>
+                    <button class="filter-btn magnetic" data-filter="documentary">Documentary</button>
+                </div>
+
+                <!-- Grid -->
+                <div class="portfolio-grid">
+                    <!-- Item 1 -->
+                    <div class="portfolio-item fade-up" data-category="short-form">
+                        <div class="video-container" data-video="https://vimeo.com/451025529">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Promo" class="poster" style="object-fit: contain; padding: 15%; background: radial-gradient(circle, #151515 0%, #050505 100%);">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Netflix Promo</h3>
+                                    <span>Short-Form Video</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="portfolio-item fade-up" data-category="long-form">
+                        <div class="video-container" data-video="https://vimeo.com/264622116">
+                            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=800&auto=format&fit=crop" alt="Long-form YouTube video" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Brand Documentary</h3>
+                                    <span>Long-Form Video</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="portfolio-item fade-up" data-category="gaming">
+                        <div class="video-container" data-video="https://vimeo.com/574514336">
+                            <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=800&auto=format&fit=crop" alt="Gaming Highlights" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Valorant Highlights</h3>
+                                    <span>Gaming Video</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="portfolio-item fade-up" data-category="football">
+                        <div class="video-container" data-video="https://vimeo.com/393264104">
+                            <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=800&auto=format&fit=crop" alt="Football Edit" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Champions League Montage</h3>
+                                    <span>Football Edits</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="portfolio-item fade-up" data-category="ecommerce">
+                        <div class="video-container" data-video="https://vimeo.com/265089307">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop" alt="eCommerce Ad" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Nike Sneaker Promo</h3>
+                                    <span>eCommerce Ads</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 6 -->
+                    <div class="portfolio-item fade-up" data-category="documentary">
+                        <div class="video-container" data-video="https://vimeo.com/139366479">
+                            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=800&auto=format&fit=crop" alt="Nature Documentary" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Wilderness Story</h3>
+                                    <span>Documentary Style</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action -->
+        <section class="cta" id="contact">
+            <div class="container cta-container fade-up">
+                <h2>Ready to shape your story?</h2>
+                <p>Let's collaborate on your next viral masterpiece.</p>
+                <a href="mailto:hello@editkaro.in" class="primary-btn magnetic">Start a Project</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">EDITKARO<span class="dot">.</span></div>
+            <div class="footer-links">
+                <a href="#" class="magnetic">Instagram</a>
+                <a href="#" class="magnetic">Twitter</a>
+                <a href="#" class="magnetic">LinkedIn</a>
+            </div>
+            <div class="footer-copy">
+                &copy; <span id="year"></span> Editkaro.in. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal (Lightbox) -->
+    <div class="modal" id="videoModal">
+        <div class="modal-close magnetic">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+        <div class="modal-content" id="modalVideoContainer">
+            <!-- Video will be dynamically injected here by JS -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
