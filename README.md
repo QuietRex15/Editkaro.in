@@ -1,4 +1,8 @@
-# Editkaro.in - Premium Multi-Page Portfolio
+# Editkaro.in - Portfolio & Agency Website
+
+This repository contains the deliverables for the following assignments:
+- **Assignment 4**: Mini Project: Portfolio Page for "Editkaro.in"
+- **Assignment 5**: Major Project: Complete the Editkaro.in Website
 
 A premium, minimalist, and highly interactive multi-page portfolio website designed for a social media marketing and video editing agency.
 
