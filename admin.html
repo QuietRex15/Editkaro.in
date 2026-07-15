@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Database Dashboard - Manage form entries, emails and CSV downloads.">
+    <title>Database Dashboard | Editkaro.in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">EDITKARO<span class="dot">.</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link magnetic">Home</a></li>
+                    <li><a href="portfolio.html" class="nav-link magnetic">Portfolio</a></li>
+                    <li><a href="about.html" class="nav-link magnetic">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link contact-btn magnetic">Let's Talk</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title fade-up">Database <span class="outline-text">Admin</span></h1>
+                <p class="page-subtitle fade-up delay-1">Simulated Google Sheets & Excel spreadsheet loader. View live entries collected from the Home & Contact page forms.</p>
+            </div>
+        </section>
+
+        <!-- Dashboard Content -->
+        <section class="admin-section fade-up">
+            <div class="container">
+                
+                <!-- Email Subscribers Table -->
+                <div class="admin-card">
+                    <div class="admin-card-header">
+                        <h2>1. Email Collector Database</h2>
+                        <button id="exportSubscribers" class="export-btn magnetic">Export to Excel (CSV)</button>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>Subscribed Email</th>
+                                    <th>Timestamp Registered</th>
+                                </tr>
+                            </thead>
+                            <tbody id="subscribersTableBody">
+                                <!-- Dynamically loaded by script.js -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Contact Submissions Table -->
+                <div class="admin-card">
+                    <div class="admin-card-header">
+                        <h2>2. Contact Inquiries Database</h2>
+                        <button id="exportSubmissions" class="export-btn magnetic">Export to Excel (CSV)</button>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Message Details</th>
+                                    <th>Timestamp Submitted</th>
+                                </tr>
+                            </thead>
+                            <tbody id="submissionsTableBody">
+                                <!-- Dynamically loaded by script.js -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">EDITKARO<span class="dot">.</span></div>
+            <div class="footer-links">
+                <a href="admin.html" class="magnetic" style="color: var(--text-primary); text-decoration: underline;">Database Access</a>
+                <a href="#" class="magnetic">Instagram</a>
+                <a href="#" class="magnetic">Twitter</a>
+                <a href="#" class="magnetic">LinkedIn</a>
+            </div>
+            <div class="footer-copy">
+                &copy; <span id="year"></span> Editkaro.in. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

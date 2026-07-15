@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selected Works - Editkaro.in Portfolio.">
+    <title>Portfolio | Editkaro.in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">EDITKARO<span class="dot">.</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link magnetic">Home</a></li>
+                    <li><a href="portfolio.html" class="nav-link magnetic">Portfolio</a></li>
+                    <li><a href="about.html" class="nav-link magnetic">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link contact-btn magnetic">Let's Talk</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title fade-up">Selected <span class="outline-text">Works</span></h1>
+                <p class="page-subtitle fade-up delay-1">Explore our diverse creations spanning multiple video disciplines and attention-engineering formats.</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio" style="padding-top: 2rem;">
+            <div class="container">
+                <!-- Filters -->
+                <div class="filter-wrapper fade-up delay-1">
+                    <button class="filter-btn active magnetic" data-filter="all">All</button>
+                    <button class="filter-btn magnetic" data-filter="short-form">Short Form</button>
+                    <button class="filter-btn magnetic" data-filter="long-form">Long Form</button>
+                    <button class="filter-btn magnetic" data-filter="gaming">Gaming Videos</button>
+                    <button class="filter-btn magnetic" data-filter="football">Football Edits</button>
+                    <button class="filter-btn magnetic" data-filter="ecommerce">eCommerce Ads</button>
+                    <button class="filter-btn magnetic" data-filter="documentary">Documentary Style</button>
+                    <button class="filter-btn magnetic" data-filter="color-grading">Color Grading</button>
+                    <button class="filter-btn magnetic" data-filter="anime">Anime Videos</button>
+                    <button class="filter-btn magnetic" data-filter="ads">Ads</button>
+                </div>
+
+                <!-- Grid -->
+                <div class="portfolio-grid">
+                    <!-- Item 1: Short Form -->
+                    <div class="portfolio-item fade-up" data-category="short-form">
+                        <div class="video-container" data-video="https://vimeo.com/451025529">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Promo" class="poster" style="object-fit: contain; padding: 15%; background: radial-gradient(circle, #151515 0%, #050505 100%);">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Netflix Promo</h3>
+                                    <span>Short Form Video</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: Long Form -->
+                    <div class="portfolio-item fade-up" data-category="long-form">
+                        <div class="video-container" data-video="https://vimeo.com/264622116">
+                            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=800&auto=format&fit=crop" alt="Brand Documentary" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Corporate Essence</h3>
+                                    <span>Long Form Video</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Gaming -->
+                    <div class="portfolio-item fade-up" data-category="gaming">
+                        <div class="video-container" data-video="https://vimeo.com/574514336">
+                            <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=800&auto=format&fit=crop" alt="Valorant Highlights" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Valorant Montage</h3>
+                                    <span>Gaming Videos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4: Football -->
+                    <div class="portfolio-item fade-up" data-category="football">
+                        <div class="video-container" data-video="https://vimeo.com/393264104">
+                            <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=800&auto=format&fit=crop" alt="Football Edit" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Champions Arena</h3>
+                                    <span>Football Edits</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5: eCommerce -->
+                    <div class="portfolio-item fade-up" data-category="ecommerce">
+                        <div class="video-container" data-video="https://vimeo.com/265089307">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop" alt="eCommerce Ad" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Nike Air Max Launch</h3>
+                                    <span>eCommerce Ads</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 6: Documentary -->
+                    <div class="portfolio-item fade-up" data-category="documentary">
+                        <div class="video-container" data-video="https://vimeo.com/139366479">
+                            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=800&auto=format&fit=crop" alt="Nature Documentary" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Wilderness Story</h3>
+                                    <span>Documentary Style</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 7: Color Grading -->
+                    <div class="portfolio-item fade-up" data-category="color-grading">
+                        <div class="video-container" data-video="https://vimeo.com/336812686">
+                            <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?q=80&w=800&auto=format&fit=crop" alt="Color Grading Reel" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Cinematic Spectrum</h3>
+                                    <span>Color Grading</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 8: Anime -->
+                    <div class="portfolio-item fade-up" data-category="anime">
+                        <div class="video-container" data-video="https://vimeo.com/389025064">
+                            <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=800&auto=format&fit=crop" alt="Anime Promo" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Anime Showcase</h3>
+                                    <span>Anime Videos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 9: Ads -->
+                    <div class="portfolio-item fade-up" data-category="ads">
+                        <div class="video-container" data-video="https://vimeo.com/172033202">
+                            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=800&auto=format&fit=crop" alt="Brand Ad" class="poster">
+                            <div class="hover-content">
+                                <div class="play-btn">
+                                    <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Urban Movement</h3>
+                                    <span>Ads</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">EDITKARO<span class="dot">.</span></div>
+            <div class="footer-links">
+                <a href="admin.html" class="magnetic" style="color: var(--text-secondary); text-decoration: underline;">Database Access</a>
+                <a href="#" class="magnetic">Instagram</a>
+                <a href="#" class="magnetic">Twitter</a>
+                <a href="#" class="magnetic">LinkedIn</a>
+            </div>
+            <div class="footer-copy">
+                &copy; <span id="year"></span> Editkaro.in. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal (Lightbox) -->
+    <div class="modal" id="videoModal">
+        <div class="modal-close magnetic">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+        <div class="modal-content" id="modalVideoContainer">
+            <!-- Video dynamically injected by JS -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

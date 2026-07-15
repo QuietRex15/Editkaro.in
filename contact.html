@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us - Formulate a query and let's work on your next video marketing campaign.">
+    <title>Contact Us | Editkaro.in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">EDITKARO<span class="dot">.</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link magnetic">Home</a></li>
+                    <li><a href="portfolio.html" class="nav-link magnetic">Portfolio</a></li>
+                    <li><a href="about.html" class="nav-link magnetic">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link contact-btn magnetic">Let's Talk</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title fade-up">Start a <span class="outline-text">Project</span></h1>
+                <p class="page-subtitle fade-up delay-1">Ready to scale your business with premium, strategic video assets? Fill out the details below.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="container fade-up">
+            <div class="contact-wrapper">
+                <form id="contactUsForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required class="form-input" placeholder="e.g. John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Business Email</label>
+                        <input type="email" id="email" required class="form-input" placeholder="e.g. john@company.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required class="form-input" placeholder="e.g. +1 (555) 000-0000">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Description</label>
+                        <textarea id="message" required class="form-input" placeholder="Tell us about your brand, video formats required, and monthly output expectations..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn magnetic">Submit Inquiry</button>
+                </form>
+                <div id="contactAlert" class="alert-message" style="margin-top: 2rem;"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">EDITKARO<span class="dot">.</span></div>
+            <div class="footer-links">
+                <a href="admin.html" class="magnetic" style="color: var(--text-secondary); text-decoration: underline;">Database Access</a>
+                <a href="#" class="magnetic">Instagram</a>
+                <a href="#" class="magnetic">Twitter</a>
+                <a href="#" class="magnetic">LinkedIn</a>
+            </div>
+            <div class="footer-copy">
+                &copy; <span id="year"></span> Editkaro.in. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
